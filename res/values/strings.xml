@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about">Acerca de...</string>
+   
+    <string name="app_name">Dicionario Galego</string>
+    <string name="cancel">Cancelar</string>
+    <string name="cancelled">Cancelado</string>
+    <string name="configureNetwork">Configurar rede</string>
+    <string name="connectionError">Houbo un erro coa conexión ao servidor. Se cadra está apagado temporalmente. Se o problema persiste ou se só ocorre ao buscar certos termos, se podes, infórmanos en contacto@galapps.es, e tentaremos arranxalo o antes posible.</string>
+    <string name="unknownError">Houbo un erro coa conexión ao servidor. Se cadra está apagado temporalmente. Se o problema persiste ou se só ocorre ao buscar certos termos, se podes, infórmanos en contacto@galapps.es, e tentaremos arranxalo o antes posible.</string>
+    <string name="errorNoWhitespaces">O infinitivo non pode ter espazos en branco</string>
+    <string name="galappsURL">DicionarioGalego para Android! via http://galapps.es</string>
+    <string name="introData">Introduza o termo a buscar:</string>
+    <string name="introDataHint">e.g: diáfano</string>
+    <string name="loadingData">Buscando termo...</string>
+    <string name="noDataConnection">Non hai conexión de datos dispoñible.</string>
+    <string name="noDataConnectionMessage">É necesario dispoñer de conexión de datos para utilizar a aplicación.</string>
+    <string name="noDataDecided">Sen conexión de datos non se poden Buscar termos.</string>
+    <string name="ok">Ok</string>
+    <string name="share">Compartir</string>
+    <string name="shareTitle">DicionarioGalego para Android!</string>
+    <string name="version">Version</string>
+    <string name="webURL">http://www.realacademiagalega.org/rag_diccionario/searchNoun.do?nounTitle=%1$s \n\nvia http://galapps.es</string>
+    <string name="notFoundTag">Non se atopou o termo.</string>
+    <string name="wordNotFound">O termo \'%1$s\' non se atopa no dicionario</string>
+    <string name="wordNotFoundOptions">Escolla unha opción</string>
+    <string name="internalError">Mmm... algo raro pasou, sentímolo. Volve tentalo a ver se agora vai...</string>
+    <string name="conjugateWith">Conxuga \'%1$s\' co:</string>
+    <string name="downloadConxuGalego">Descargar ConxuGalego</string>
+    <string name="downloadConxuGalegoMessage">Para conxugar o verbo é necesario ter instalada a aplicación ConxuGalego. Queres descargala?</string>
+    <string name="conjugateNotFound">O termo \'%1$s\' non ten forma de verbo.</string>
+    <string name="news_title">Novidades da versión:</string>
+    <string name="news_title_bis">Novas:</string>
+    <string name="news_1_0">Xa se pode mover a aplicación á tarxeta SD</string>
+    <string name="news_1_1_1">Inclúe información sobre os cambios introducidos na normativa do 2003</string>
+    <string name="news_1_2">Intégrase con TradutorGalego, a nova aplicación de GalApps: toda a lingua galega no teu peto</string>
+    <string name="news_1_2_1">- Solucionado problema de tamaño coas imaxes das integracións\n- Solucionados algúns bugs</string>
+	<string name="news_1_2_1_bis">O widget de GalApps xa está dispoñible!!!\nhttps://market.android.com/details?id=es.galapps.android.galappswidget</string>
+    <string name="news_2_0">- Versión 2.0 : Primeira versión adaptada ao novo dicionario da RAG (2012). Dádenos tempo se vedes algún erro, ou mellor aínda, avisádenos a contacto@galapps.es, e tentaremos arranxalo o antes posible.\n\nGraciñas por descargala!!</string>
+    <string name="news_2_0_1">- Versión 2.0.1 : Adaptada á nova URL que emprega o servizo. Desculpade as molestias, non nos avisan cando cambian a URL.\n\nSe detectas que non funciona, se podes avísanos a contacto@galapps.es. Graciñas!!</string>
+    <string name="news_2_0_2">- Versión 2.0.2 : Amosa todas as acepcións da palabra\n\n- Descarga xa Imos? A guía social máis xenuína de Galicia! https://play.google.com/store/apps/details?id=es.galapps.android.imos</string>
+    <string name="translateWith">Traduce \'%1$s\' co:</string>
+    <string name="downloadTradutorGalego">Descargar TradutorGalego</string>
+    <string name="downloadTradutorGalegoMessage">Para traducir o termo é necesario ter instalada a aplicación TradutorGalego. Queres descargala?</string>
+    
+    <string name="advice">Aviso</string>
+        
+    <string name="about_version">Versión: </string>
+    <string name="about_developed">Aplicación desenvolvida por:</string>
+    <string name="about_dev1">Xurxo Méndez Pérez - @sonxurxo</string>
+    <string name="about_dev1_link">http://blog.sonxurxo.com</string>
+    <string name="about_dev2">Juan Porta Trinidad - @elpolta</string>
+    <string name="about_dev2_link">http://market.android.com/developer?pub=Juan+Porta</string>
+    <string name="about_designed">Aplicación deseñada por:</string>
+    <string name="about_designer">Sabela Barreiro González - @sabelabarreiro</string>
+    <string name="about_designer_link">http://sabelabarreiro.com</string>
+    <string name="about_contact">Contacto:</string>
+    <string name="about_contact_link">http://galapps.es - contacto@galapps.es</string>
+    <string name="about_note">Esta aplicación obtén tódalas definicións do Dicionario da Real Academia Galega de 2012 dispoñible en http://www.realacademiagalega.org/</string>
+
+	<string name="changes">Cambios na normativa</string>
+	<string name="changes_intro">Estes son os cambios introducidos na normativa do 2003 respecto á normativa de 1997, que é a que emprega esta aplicación. (fonte: http://gl.wikipedia.org/wiki/Normativa_oficial_do_galego_-_Cambios_morfolóxicos )</string>
+	
+	<string name="lexico">Léxico</string>
+	<string name="lexico_changes1">1. Vogal (\"letra\", \"membro dunha corporación\") / vocal (adx.)</string>
+	<string name="lexico_changes2">2. Estudo, estudar, estudante, estudoso / estudio (oficina; local)</string>
+	<string name="alfabeto">Alfabeto</string>
+	<string name="alfabeto_changes1">1. Leremos q (o que), ch (o ce hache), ll (o l dobre), qu (o que u)</string>
+	<string name="acentuacion">Acentuación</string>
+	<string name="acentuacion_changes1">1. Non acentuamos i,u se hai hache no medio: ex. Prohibo</string>
+	<string name="acentuacion_changes2">2. Non se acentúan os interrogativos-exclamativos (só os indirectos en casos de ambigüidade)</string>
+	<string name="apostrofo">Apóstrofo</string>
+	<string name="apostrofo_changes1">1. Por ex. N\'A esmorga de Blanco Amor... , Sabes algo d\'Os dous de sempre de Castelao?.</string>
+	<string name="interrogacion_exclamacion">Interrogación-Exclamación</string>
+	<string name="interrogacion_exclamacion_changes1">1. Non se usa o signo (¿ ou ¡) ao principio (só permitida en ambigüidades): ex. Queres a merenda? Vaiche boa!</string>
+	<string name="grupos_cultos">Grupos cultos -ct- e -cc-</string>
+	<string name="grupos_cultos_changes1">1. Suprímese a primeira consoante se vai precedida de i ou u. Exemplos: Aflición, condución, contradición, conduta, conflito, construción, construtor, destrución, dicionario, ditado, estrito, estrutura, flutuación, frutífero, introdutor, obstrución, produto, produción, redución, reprodución, restrición, tradución, vítima, Vítor, vitoria, xurisdición, produto, condutor...</string>
+	<string name="grupos_cultos_changes2">2. Mantense o c en tecnicismos e palabras cultas: adicto, adicción, convicción, convicto, edicto, ficción, fricción, ictericia, invicto, pictórico, succión, veredicto...</string>
+	<string name="semicultismos">Semicultismos vocalizados no grupo -ct-</string>
+	<string name="semicultismos_changes1">1. reitor (e reitoral) e seita (pero sectario)</string>
+	<string name="x">O x con valor [ks] é opcional</string>
+	<string name="x_changes1">1. Esaxerar ou exaxerar, esixir ou exixir, osíxeno ou oxíxeno...</string>
+	<string name="terminacion_cio">Terminación -cio, -cia // -zo, -za</string>
+	<string name="terminacion_cio_changes1">1. Galicia ou Galiza</string>
+	<string name="terminacion_cio_changes2">2. -zo, -za: diferenza, espazo (espazar, espazoso; mais espacial), estanza (\"estrofa\"), graza, desgraza (mais desgraciar e desgraciado), licenza, nacenza, novizo, perseveranza, presenza, sentenza, servizo, servizal, terzo (terza, terzar) ...</string>
+	<string name="terminacion_ble">Terminación -ble ou -bel</string>
+	<string name="terminacion_ble_changes1">1. Amable ou amábel (plural: amables, amábeis)</string>
+	<string name="terminacion_ble_changes2">2. Establecer ou estabelecer</string>
+	<string name="terminacions_eu">Terminacións -eu, -au e -o</string>
+	<string name="terminacions_eu_changes1">1. -eu: chapeu, romeu, xubileu</string>
+	<string name="terminacions_eu_changes2">2. -au: bacallau, pau</string>
+	<string name="terminacions_eu_changes3">3. -o: ímpeto, tribo</string>
+	<string name="terminacions">Terminacións -eu, -au e -o</string>
+	<string name="terminacions_changes1">1. -án, -á: bosquimán, bosquimá; capitán, capitá; musulmán, musulmá; afgán, afgá; alemán, alemá; catalán, catalá</string>
+	<string name="terminacions_changes2">2. Mantemos -ao/-á nalgúns xentilicios galegos: burelao, burelá; limiao, limiá ...</string>
+	<string name="terminacions_changes3">3. -án, -ana: folgazán, folgazana; pillabán, pillabana; langrán, langrana...</string>
+	<string name="terminacions_changes4">4. -ón, -oa: anfitrión, anfitrioa; bretón, bretoa; campión, campioa; león, leoa; patrón, patroa; ladrón, ladroa (ou ladra)...</string>
+	<string name="terminacions_changes5">5. -ón, -ona é aumentativo ou deverbal pexorativo: mullerona, casona, abusona, acusona, faltona, lambona, preguntona...</string>
+	<string name="puberdade">Puberdade</string>
+	<string name="terminacions_aria">Terminacións -aría ou -ería</string>
+	<string name="terminacions_aria_changes1">1. Son correctas ambas, mais prefírese a primeira: Carnizaría, enfermaría, lavandaría, libraría, panadaría, peixaría, reloxaría, consellaría, carpintaría, cristalaría, zapataría...</string>
+	<string name="terminacions_aria_changes2">2. É obrigatorio –ería en batería, galería, galantería e mercería.</string>
+	<string name="artigo">Artigo</string>
+	<string name="artigo_changes1">1. Artigo determinado: A forma –lo só é obrigatorio despois de por e o adverbio u (polo camiño, pola beira, u-lo neno?, u-las culleres?). Nos demais casos é opcional usar a forma simple o, a, os, as ou a segunda –lo, -la, -los, -las: - Todas as nenas (ou Tódolas nenas) - Facer a comida (ou Face-la comida)</string>
+	<string name="artigo_changes2">2. A contracción de a+o é ao ou ó (prefírese ao): Vou ao cine (vou ó cine)</string>
+	<string name="artigo_changes3">3. Construcións comparativas: ca o, có ou que o. Ex. Son máis alto ca o neno, son máis alto có neno, son máis alto que o neno - A pataca nova é mellor ca a vella, é mellor cá vella, é mellor que a vella</string>
+	<string name="demostrativo">Demostrativo neutro</string>
+	<string name="demostrativo_changes1">1. Isto, iso, aquilo</string>
+	<string name="relativos">Relativos</string>
+	<string name="relativos_changes1">1. Admítese cuxo, cuxa, cuxos, cuxas.</string>
+	<string name="numerais">Numerais</string>
+	<string name="numerais_changes1">1. Vinte e trinta sepáranse en vinte e un, vinte e dous, trinta e oito...</string>
+	<string name="numerais_changes2">2. Tripla, triplo, cuádrupla, cuádruplo (*triple e *cuádruple son incorrectas)</string>
+	<string name="verbo">Verbo</string>
+	<string name="verbo_changes1">1. - Andásemos, andásedes (Pretérito de subxuntivo) - Andabamos, andaramos, andariamos (copretérito, antepretérito e pospretérito)</string>
+	<string name="verbo_changes2">2. Oír ou Ouvir (presente: oio ou ouzo; pretérito: oín ou ouvín)</string>
+	<string name="adverbios">Adverbios</string>
+	<string name="adverbios_changes1">1. Alén (= máis alá, do outro lado) e Aquén (= máis acá, desta parte)</string>
+	<string name="adverbios_changes2">2. Son incorrectos *entonces e *alomenos. Usemos entón e polo menos, cando menos.</string>
+	<string name="adverbios_changes3">3. Aglutinados: acotío, amodo, decotío, deseguida, devagar, enseguida, talvez.</string>
+	<string name="preposicions">Preposicións</string>
+	<string name="preposicions_changes1">1. A respecto de, alén de, após, aquén de, até, canto a</string>
+	<string name="conxuncions">Conxuncións</string>
+	<string name="conxuncions_changes1">1. Até que, porén (= non obstante, con todo), no entanto (=a pesar diso, porén)</string>
+	<string name="conxuncions_changes2">2. Son incorrectas *anque, *entonces, *nembargantes e *sen embargo</string>
+	<string name="conxuncions_changes3">3. A respecto de, alén de, após, aquén de, até, canto a</string>
+	
+</resources>

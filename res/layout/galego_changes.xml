@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:orientation="vertical"    
+    android:paddingLeft="5dip">
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"    
+    android:paddingLeft="5dip">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="14dp"
+        android:textColor="#FFFFFF"
+        android:autoLink="web"
+        android:text="@string/changes_intro"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/lexico"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/lexico_changes1"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/lexico_changes2"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/alfabeto"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/alfabeto_changes1"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/acentuacion"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/acentuacion_changes1"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/acentuacion_changes2"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/apostrofo"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/apostrofo_changes1"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/interrogacion_exclamacion"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/interrogacion_exclamacion_changes1"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/grupos_cultos"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/grupos_cultos_changes1"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/grupos_cultos_changes2"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/semicultismos"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/semicultismos_changes1"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/x"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/x_changes1"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/terminacion_cio"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/terminacion_cio_changes1"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/terminacion_cio_changes2"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/terminacion_ble"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/terminacion_ble_changes1"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/terminacion_ble_changes2"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/terminacions_eu"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/terminacions_eu_changes1"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/terminacions_eu_changes2"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/terminacions_eu_changes3"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/terminacions"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/terminacions_changes1"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/terminacions_changes2"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/terminacions_changes3"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/terminacions_changes4"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/terminacions_changes5"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/puberdade"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/terminacions_aria"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/terminacions_aria_changes1"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/terminacions_aria_changes2"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/artigo"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/artigo_changes1"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/artigo_changes2"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/artigo_changes3"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/demostrativo"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/demostrativo_changes1"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/relativos"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/relativos_changes1"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/numerais"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/numerais_changes1"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/numerais_changes2"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/verbo"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/verbo_changes1"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/verbo_changes2"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/adverbios"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/adverbios_changes1"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/adverbios_changes2"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/adverbios_changes3"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/preposicions"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/preposicions_changes1"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="@string/conxuncions"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/conxuncions_changes1"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/conxuncions_changes2"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#DDDDDD"
+        android:text="@string/conxuncions_changes3"/>
+</LinearLayout>
+
+</ScrollView>
